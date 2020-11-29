@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component } from 'react'
 
 export class User extends Component {
     componentDidMount(){
@@ -7,11 +7,11 @@ export class User extends Component {
 
     render() {
         return (
-            <Fragment>
+            <div>
                 User
-            </Fragment>
+            </div>
         )
     }
 }
 
-export default User
+export default User;
